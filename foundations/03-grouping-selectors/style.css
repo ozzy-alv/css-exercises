@@ -1,0 +1,14 @@
+#uno {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+
+#dos {
+  background-color: yellow;
+}
+
+.mainStyle {
+  font-size: 28px;
+  font-family: Helvetica, Times New Roman, sans-serif;
+}
