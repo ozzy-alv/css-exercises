@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+:root {
+  --widthOne: 300px;
+  --widthTwo: 200px;
+}
+
+.avatar.proportioned {
+  width: var(--widthOne);
+  height: auto;
+}
+
+.avatar.distorted {
+  width: var(--widthTwo);
+  height: calc(var(--widthTwo) * 2);
+}
